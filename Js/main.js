@@ -32,20 +32,15 @@ let landing = document.querySelector(".landing");
 let content = document.querySelector(".content");
 
 document.addEventListener("DOMContentLoaded", () => {
-  content.style = "display:none;";
-  setTimeout(() => {
-    landing.style = "display:none;";
-    content.style = "display:block;";
-  }, 3000);
   setTimeout(() => {
     nav.style = "top:0;";
-  }, 4500);
+  }, 1500);
   setTimeout(() => {
     infoP.style = "opacity:1;top:0px;transition:all .5s ease-out";
-  }, 4000);
+  }, 1000);
   setTimeout(() => {
     infoH1.style = "opacity:1;top:0px;transition:all .5s ease-out";
-  }, 3500);
+  }, 500);
   line.style = "opacity:1;transition:all .5s 2.5s ease-out";
 });
 
